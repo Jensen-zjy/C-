@@ -8,10 +8,25 @@ int main()
 //	printf("%d",num%10);
 //	num=num/10;
 //	}
+//	int i=0;
+//	for(i=1;i<=10;i++)
+//	{
+//		printf("%d ", i);
+//	}
+//	int i=0;
+//	int sum=0;
+//	for (i=1;i<=100;i++)
+//	{
+//		if(i%3==0)
+//		sum += i;
+//	} 
+//	 printf("%d\n",sum);
 	int i=0;
-	for(i=1;i<=10;i++)
+	int sum=0;
+	for (i=3;i<=100;i+=3)
 	{
-		printf("%d ", i);
+		sum+=i;
 	}
+	printf("%d",sum);
 	return 0;
 }
